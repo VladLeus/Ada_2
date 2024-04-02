@@ -1,0 +1,208 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_NESTED_FINALIZATION
+RV NO_PROTECTED_TYPES
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U main%b		main.adb		ae7d7a62 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_fixed_64%s	s-imfi64.ads		s-imfi64.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nudira.ads		20210520051130 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20210520051130 0bfd6ec4 ada.numerics.discrete_random%b
+D a-reatim.ads		20210520051128 0240fc73 ada.real_time%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main.adb		20240402115746 ad06052b main%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-arit64.ads		20210520051132 5f88d2b0 system.arith_64%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imagef.ads		20210520051134 019cdf69 system.image_f%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
+D s-imfi64.ads		20210520051134 dbac59b3 system.img_fixed_64%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-rannum.ads		20210520051134 c3978523 system.random_numbers%s
+D s-rannum.adb		20210520051134 2631917b system.random_numbers%b
+D s-ransee.ads		20210520051134 01a57b33 system.random_seed%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taprop.ads		20210520051128 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051128 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051128 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051128 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tasren.ads		20210520051128 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20210520051128 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-valuns.ads		20210520051134 dac7b45d system.val_uns%s
+D s-valueu.ads		20210520051134 7b8fccf5 system.value_u%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 6 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 22|1r6 1r23 2r6 2r31 3r6 3r25 4r6 14r6
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[16|46] 22|2w10 2r35
+X 6 a-numeri.ads
+16K13*Numerics 35e17 22|4r10 14r10
+X 7 a-nudira.ads
+44k22*Discrete_Random 81e33 22|4w19 14r19
+50R9 Generator<42|65R9> 22|18r13[13]
+52V13 Random{integer} 22|24s15[13] 28s11[13]
+61U14 Reset<42|103p14> 22|21s7[13]
+X 8 a-nudira.adb
+53V16 Random[42|86]{integer} 43|402b13[22|13]
+65V16 Random[42|86]{integer} 43|402b13[22|13]
+X 9 a-reatim.ads
+39K13*Real_Time 185e18 22|3w10 3r29
+49O9*Time<duration> 22|101r28
+54O9*Time_Span<duration> 22|102r28
+61V13*Clock{49O9} 22|104s18 107s20
+71V14*"-"{54O9} 22|108s30
+110V13*To_Duration{duration} 22|113s19
+X 15 a-textio.ads
+58K13*Text_IO 725e16 22|1w10 1r27
+506U14*Put_Line 22|109s4 110s4 111s4
+X 18 interfac.ads
+55I9*Integer_64<long_long_integer>
+79M9*Unsigned_32
+82M9*Unsigned_64
+X 22 main.adb
+6U11*Main 6b11 115l5 115t9
+7i4 Dim{integer} 10r19 11r47 23r19 89r28
+8i4 Thread_Num{integer} 67r65 88r22 89r34 91r16
+10a4 Arr(integer) 25m10 28m7 36r13 37r26 60r13 61r21 109r56
+11I12 Random_Range{integer} 14r36 19r10
+13K12 R[7|44] 15r8
+17U14 Init_Arr 17b14 29l8 29t16 105s4
+18r7 Gen{7|50R9[13]} 21r14 24r22 28r19
+19i7 X{11I12} 24m10 25r20
+23i11 I{integer} 25r14
+31V13 part_min{integer} 31b13 31>22 31>35 42l8 42t16 81s20
+31i22 start_index{integer} 35r16 81r29
+31i35 finish_index{integer} 35r29 82r29
+32i7 Min_Value{integer} 36r22 37m13
+33i7 Min_Index{integer} 38m13 41r14
+35i11 I{integer} 36r17 37r30 38r26
+44T14 Starter_Thread 46l8 46e22 73b14 78m10 79m10 84l8 84t22 88r37
+45Y13 Start 45>19 45>32 77b14 80l11 80t16 92s17
+45i19 Start_Index{integer} 78r40
+45i32 Finish_Index{integer} 79r41
+48w14 Part_Manager 57b19 71l8 71t20 83r7 95r4
+49U17 Set_Part_Min 49>30 58b17 65l11 65t23 83s20
+49i30 Min_Index{integer} 58b30 60r17 61r25 62r27
+50Y13 Get_Min 50<21 67b13 70l11 70t18 95s17
+50i21 Min_Index{integer} 69m10
+52i7 Tasks_Count{integer} 64r10 64r25 67r51
+53i7 Min1{integer} 60r30 61r13
+54i7 Min_Index1{integer} 62r13 69r23
+67i21 Min_Index{integer}
+74i7 Min_Index{integer} 81m7 83r33
+75i7 Start_Index{integer} 78m25 81r44
+75i20 Finish_Index{integer} 79m25 82r45
+77i20 Start_Index{integer}
+77i33 Finish_Index{integer}
+86V13 Parallel_Min{integer} 86b13 97l5 97t17 106s17
+87i4 Min_Index{integer} 95m25 96r11
+88a4 Thread(44T14) 92r7
+89i4 Range_Size{integer} 92r33 92r53
+91i8 I{integer} 92r14 92r24 92r49
+100i4 Min_Index{integer} 106m4 109r60 110r56
+101o4 Start_Time{9|49O9} 104m4 108r32
+101o16 Stop_Time{9|49O9} 107m4 108r20
+102o4 Elapsed_Time{9|54O9} 108m4 113r32
+X 25 s-arit64.ads
+44I12*Int64{18|55I9}
+54V13*Multiply_With_Ovflo_Check64{44I12} 55i<c,__gnat_mulv64>22
+X 42 s-rannum.ads
+77V13*Random{18|79M9} 43|224i21
+78V13*Random{18|82M9} 43|224i21
+X 48 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+
